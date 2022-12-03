@@ -6,8 +6,9 @@
     <meta charset="utf-8">
     <title>NINA Theme – Free HTML theme</title>
 
-    <link rel="stylesheet" href="reset.css" type="text/css">
-    <link rel="stylesheet" href="styl.css" type="text/css">
+    <link rel="stylesheet" href="static/css/generics.css" type="text/css">
+    <link rel="stylesheet" href="static/css/contact.css" type="text/css">
+    <link rel="stylesheet" href="static/css/menu.css" type="text/css">
 
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext'
         rel='stylesheet' type='text/css'>
@@ -17,12 +18,12 @@
 <body>
 
     <!-- *********  Header  ********** -->
-    <div id="header">
-        <div id="header_in">
+    <header>
+        <div class="header_content">
 
             <h1><a href="index.html"><b>Бондарь</b> Артём</a></h1>
 
-            <div id="menu">
+            <div class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -31,13 +32,13 @@
             </div>
 
         </div>
-    </div>
+    </header>
 
     <!-- *********  Main part – headline ********** -->
 
 
-    <div id="main_part_inner">
-        <div id="main_part_inner_in">
+    <div class="main_content">
+        <div class="main_heading">
 
             <h2>Contact</h2>
 
@@ -48,7 +49,7 @@
 
     <!-- *********  Content  ********** -->
 
-    <div id="content_inner">
+    <div class="contact">
 
         <!-- *** contact form *** -->
 
@@ -77,36 +78,26 @@
 
         <h3>Контактная информация</h3>
 
-        <div class="contactinfo">
+        <div class="contact_info">
             <span><b>15-ое Авеню, 15 362, Сан-Франциско</b></span>
         </div>
 
-        <div class="contactinfo">
+        <div class="contact_info">
             <span><b>111111@niutmo.ru</b></span>
         </div>
 
-        <div class="contactinfo">
+        <div class="contact_info">
             <span><b>(+123) 456 789 012</b></span>
         </div>
 
         <hr class="cleanit">
-
-
-
-
-
-
     </div>
-
-
 
     <!-- *********  Footer  ********** -->
 
     <hr class="cleanit">
 
-    <div id="footer">
-        <div id="footer_in"></div>
-    </div>
+    <footer></footer>
 
     <script src="./static/js/game.js"> </script>
 </body>

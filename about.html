@@ -6,8 +6,9 @@
     <meta charset="utf-8">
     <title>NINA Theme – Free HTML theme</title>
 
-    <link rel="stylesheet" href="reset.css" type="text/css">
-    <link rel="stylesheet" href="styl.css" type="text/css">
+    <link rel="stylesheet" href="static/css/generics.css" type="text/css">
+    <link rel="stylesheet" href="static/css/about.css" type="text/css">
+    <link rel="stylesheet" href="static/css/menu.css" type="text/css">
 
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext'
         rel='stylesheet' type='text/css'>
@@ -18,12 +19,12 @@
 
     <!-- *********  Header  ********** -->
 
-    <div id="header">
-        <div id="header_in">
+    <header>
+        <div class="header_content">
 
             <h1><a href="index.html"><b>Бондарь</b> Артём</a></h1>
 
-            <div id="menu">
+            <div class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html" class="active">About</a></li>
@@ -32,13 +33,13 @@
             </div>
 
         </div>
-    </div>
+    </header>
 
     <!-- *********  Main part – headline ********** -->
 
 
-    <div id="main_part_inner">
-        <div id="main_part_inner_in">
+    <div class="main_content">
+        <div class="main_heading">
 
             <h2>About us</h2>
 
@@ -49,7 +50,7 @@
 
     <!-- *********  Content  ********** -->
 
-    <div id="content_inner">
+    <div class="our_team">
 
         <!-- ***** Out team + portraits ***** -->
 
@@ -60,8 +61,8 @@
 
         <div class="sixths_team">
             <h4>Да-да, это я!</h4>
-            <a href="#"><img src="img/team_member1.jpg" alt="team1" height="140" width="140"></a>
-            <a href="#" class="profession">developer</a>
+            <a href=""><img src="img/team_member1.jpg" alt="team1" height="140" width="140"></a>
+            <a href="" class="profession">developer</a>
         </div>
 
         <div class="sixths_team">
@@ -109,42 +110,42 @@
 
         <!-- ***** History, milestones ***** -->
 
-        <div class="history_blok">
+        <div class="history">
 
             <h3>A bit of our history</h3>
-            <img src="design/milestones.png" class="milestones">
+            <img src="design/milestones.png" class="key_points">
 
-            <div class="milestone1">
-                <h4 class="miles">
+            <div class="key_point_1">
+                <h4>
                     <b>01/2003</b> <br>
                     Здесь всё и началось!
                 </h4>
-                <p class="descr">Самый спокойный и беззаботный период моей жизни.</p>
+                <p class="description">Самый спокойный и беззаботный период моей жизни.</p>
             </div>
 
-            <div class="milestone2">
-                <h4 class="miles">
+            <div class="key_point_2">
+                <h4>
                     <b>01/2017</b> <br>
                     9 класс
                 </h4>
-                <p class="descr">Здесь я начал познавать страдания и старался изобрести 25 час, чтобы мне хватало
+                <p class="description">Здесь я начал познавать страдания и старался изобрести 25 час, чтобы мне хватало
                     времени.</p>
             </div>
 
-            <div class="milestone3">
+            <div class="key_point_3">
                 <h4 class="miles">
                     <b>01/2020</b> <br>
                     Поступление в ИТМО.
                 </h4>
-                <p class="descr">Тут я понял, что одного дополнительного часа в день уже совсем недостаточно.</p>
+                <p class="description">Тут я понял, что одного дополнительного часа в день уже совсем недостаточно.</p>
             </div>
 
-            <div class="milestone4">
+            <div class="key_point_4">
                 <h4 class="miles">
                     <b>3/2013</b> <br>
                     Работа в НЦКР.
                 </h4>
-                <p class="descr">Вы когда нибудь писали код, 48 часов, отлаживали, ускоряли и слушали, 100 часовое видео
+                <p class="description">Вы когда нибудь писали код, 48 часов, отлаживали, ускоряли и слушали, 100 часовое видео
                     по языку за час, чтобы на проде этот код выкинули?</p>
             </div>
 
@@ -153,7 +154,7 @@
         </div>
 
 
-        <div class="moreabout">
+        <div class="more_about">
             <p>Если тебе всё равно мало и ты хочешь знать больше обо мне, то у меня плохие новости. Я участвовал во
                 множестве конкурсов и хакатонов по CTF и не хочу оставлять цифровой след :)</p>
         </div>
@@ -165,9 +166,7 @@
 
     <hr class="cleanit">
 
-    <div id="footer">
-        <div id="footer_in"></div>
-    </div>
+    <footer></footer>
 
 </body>
 

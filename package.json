@@ -1,0 +1,30 @@
+{
+  "name": "nina",
+  "version": "1.0.0",
+  "description": "best_app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint static --ext .js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-bondar-artem-igorevich.git"
+  },
+  "keywords": [
+    "best",
+    "cool",
+    "good"
+  ],
+  "author": "Aerocobra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-bondar-artem-igorevich/issues"
+  },
+  "homepage": "https://besenok-13.github.io/2022-fall-lab-portfolio-bondar-artem-igorevich/",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
